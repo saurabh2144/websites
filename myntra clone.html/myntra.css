@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 80px;
+    border-bottom: 1px solid #b6b1b1;
+}
+
+.myntalogo{
+    height: 36px;
+    width: 53px;
+}
+.logo{
+    margin-left: 4%;
+}
+.actionbar{
+    margin-right: 4%;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    min-width: 515px;
+
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    text-transform: uppercase;
+    font-weight:700; 
+    padding: 30px 0;
+}
+.navbar a:hover{
+    border-bottom: 5px #f54e77
+}
+.navbar a sup{
+    text-align: left;
+    color: #ff3f6c;
+    font-size: 10px;
+
+}
+
+.search{
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    border-radius: 4px 0 0 4px;
+
+
+}
+
+.searchicon{
+    height: 20px;
+    padding: 10px;
+    box-sizing: content-box;
+    background: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+
+
+}
+.searchbox{
+    background: #f5f5f6;
+    color: #696e79;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+
+           
+}
+
+
+
+
+.actionbar1{
+    display:flex;
+    min-width: 200px;
+    justify-content: space-between;
+
+    
+
+
+}
+.action-cont{
+    display:flex;
+    flex-direction:column ;
+    align-items: center;
+
+}
+
+
+
+
+
+/*main */
+.banner{
+    margin: 40px 0;
+}
+
+.banner_img{
+    width: 100%;
+}
+
+
+.cateogry{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+
+.cateogryitem{
+    display: flex;
+    flex-wrap: wrap;
+   
+
+
+}
+
+.footer_container{
+    
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+
+.sale_item{
+    height:  297.58px;
+    width:226.67px;
+    
+
+}
+
+.footer_coloum{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer_coloum a {
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+
+}
+
+.footer_coloum h3 {
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+
+
+}

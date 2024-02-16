@@ -1,0 +1,66 @@
+body{
+    background-color: rgba(178,30,215,0.699);
+
+}
+
+.card{
+    text-transform: capitalize;
+    margin-top: 10%;
+    margin-left:40% ;
+    width: 330px;
+    height: 312px;
+    border-radius: 20px;
+
+    background-color: #fff;
+    text-align: center;
+}
+
+.user input {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    border-bottom: 2px solid gray;
+    text-transform:capitalize;
+
+}
+
+.password input {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    border-bottom: 2px solid gray;
+    text-transform:capitalize;
+}
+
+.forgot{
+    margin-top: 10px;
+
+}
+
+.btn .login-btn {
+    margin-top: 20px;
+    width: 90%;
+    padding: 10px;
+    border: 2px solid blue;
+    outline: none;
+    border-radius: 20px;
+    background: transparent;
+    font-weight: 600;
+    text-transform: uppercase;
+   
+}
+
+.signup {
+    margin-top: 10px;
+}
+
+.signup a {
+    text-transform: uppercase;
+    text-decoration: none
+    ;
+    font-weight: 600;
+    text-shadow:yellow;
+}
+
